@@ -46,4 +46,4 @@ services:
 
 > run docker compose with `docker compose up -d`
 
-> restore database in the container with `docker exex dbtest /bin/bash db_restore.sh`
+> restore database in the container with `docker exec dbtest /bin/bash db_restore.sh`
