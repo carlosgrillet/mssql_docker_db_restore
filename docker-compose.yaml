@@ -9,7 +9,6 @@ services:
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=.Carlosgrillet23
-      - MSSQL_DB_NAME=PEPSICO_XSS_441_QAS_20231211
     volumes:
       - ./backup:/var/opt/mssql/backup
       - ./script/db_restore.sh:/db_restore.sh
