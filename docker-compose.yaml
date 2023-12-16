@@ -12,3 +12,5 @@ services:
     volumes:
       - ./backup:/var/opt/mssql/backup
       - ./script/db_restore.sh:/db_restore.sh
+      - local_sqldata:/var/lib/sqldata/data
+local_sqldata:
