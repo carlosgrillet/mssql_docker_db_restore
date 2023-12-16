@@ -1,4 +1,4 @@
-# MS SQL DB restoring
+# Docker MS SQL DB restoring
 
 ## Config
 
