@@ -11,8 +11,6 @@
 └── script
     ├── db_restore.sh
     └── setup.sql
-
-3 directories, 4 files
 ```
 
 > `<your_backup_file>` is the backup file that contains the databas
